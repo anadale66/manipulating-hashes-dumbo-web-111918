@@ -13,7 +13,12 @@ def first_challenge
     }
   }
 
-  first_challenge.each do 
+  first_challenge.each do |name,data|
+    data.each do |catagory, info| 
+      if catagory == 
+    end
+  
+  end
   
   
   #contacts["Freddy Mercury"][:favorite_icecream_flavors].delete("strawberry")
