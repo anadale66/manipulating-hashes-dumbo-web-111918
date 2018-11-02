@@ -17,9 +17,7 @@ def first_challenge
     data.each do |catagory, info| 
       if catagory == :favorite_icecream_flavors
          catagory.each do |flavor| 
-           if flavor == "strawberry"
-             flavor.delete("strawberry")
-           end
+           flavor.delete("strawberry")
          end
       end
     end
