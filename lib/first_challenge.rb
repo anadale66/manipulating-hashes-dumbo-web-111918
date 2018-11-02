@@ -19,9 +19,10 @@ def first_challenge
          catagory.each do |flavor| 
            if flavor == "strawberry"
              flavor.delete("strawberry")
+           end
          end
+      end
     end
-  
   end
   
   
